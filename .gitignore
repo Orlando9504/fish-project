@@ -105,3 +105,6 @@ dist
 
 #ignorando carpeta de nodemodules 
 node_modules
+
+#dist-server
+dist-server
