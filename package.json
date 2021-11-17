@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "start": "NODE_ENV=production node ./server/bin/www",
-    "w:d": "NODE_ENV=development babel-watch --watch ./server/views ./server/bin/www",
+    "dev": "NODE_ENV=development babel-watch --watch ./server/views ./server/bin/www",
     "cleanc": "rimraf dist-server",
     "b:s": "npm run clean && babel ./server --out-dir dist-server --copy-files",
     "w:s": "NODE_ENV=development webpack serve --config ./webpack.dev.config.js --mode development",
